@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contacts</title>
+    <link rel="stylesheet" type="text/css" href="contactCard.css">
+    <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type = "text/javascript" src="contactCard.js"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <form>
+            <div>
+                <label name="first_name">First Name: </label>
+                <input type="text" name="first_name" id="first_name">
+            </div>
+            <div>
+                <label name="last_name">Last Name: </label>
+                <input type="text" name="last_name" id="last_name">
+            </div>
+            <div id="description">
+                <label name="description">Description: </label>
+                <textarea name="description"></textarea>
+                <input type="submit" value="Add user">
+            </div>
+        </form>
+        <div id="people">
+            <div class="person" data-hiddenDescription="Coding dojo's fearless leader. Master of instruction.">
+                <h1>Michael Choi</h1>
+                <h2>Click for description</h2>
+            </div>
+            <div class="person" data-hiddenDescription="Chief project engineer. Chief of other things as well.">
+                <h1>John Supsupin</h1>
+                <h2>Click for description</h2>
+            </div>
+            <div class="person" data-hiddenDescription="Senior software engineer. Saves bees in his spare time.">
+                <h1>Dexter Clark</h1>
+                <h2>Click for description</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

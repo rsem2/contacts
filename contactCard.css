@@ -1,0 +1,26 @@
+.person{
+    height: 150px;
+    width: 300px;
+}
+
+#wrapper{
+    height: 700px;
+    width: 600px;
+
+}
+form{
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+
+}
+
+#people{
+    display: inline-block;
+}
+
+.person{
+    border: 1px solid black;
+    margin:5px;
+    text-align:center;
+}
